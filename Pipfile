@@ -7,8 +7,9 @@ name = "pypi"
 psycopg2 = "*"
 psycopg2-binary = "*"
 pillow = "*"
+django-heroku = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.7"
