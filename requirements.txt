@@ -1,0 +1,9 @@
+django
+django-cors-headers
+django-heroku
+gunicorn
+razorpay
+psycopg2
+psycopg2-binary
+pillow
+whitenoise
