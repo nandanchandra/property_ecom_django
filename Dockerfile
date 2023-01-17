@@ -16,5 +16,3 @@ RUN pip install -r /app/requirements.txt
 
 # Copy project
 COPY . /app/
-
-RUN python manage.py collectstatic --noinput
