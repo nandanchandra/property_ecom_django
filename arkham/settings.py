@@ -1,5 +1,4 @@
 import os
-import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -15,7 +14,6 @@ SECRET_KEY = '#@35vep$wmylrtd&#6a1u0ijq_ufv-_s!hz2y!yg+__0(cz!-!'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -133,7 +131,6 @@ STATICFILES_DIRS=[
     os.path.join(BASE_DIR,'arkham/static')
 ]
 
-
 # Media Folder Settings
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
@@ -143,6 +140,3 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
-
-
-django_heroku.settings(locals())
